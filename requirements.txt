@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+chembl_structure_pipeline==1.2.2
+matplotlib==3.10.1
+modin==0.32.0
+moses==0.10.0
+numpy==1.23.5
+pandas==2.2.3
+rdkit==2023.3.2
+scikit_learn==1.6.1
+scipy==1.15.2
+seaborn==0.13.2
+torch==1.9.0
+torchtext==0.10.0
+tueplots==0.2.0
