@@ -5,6 +5,7 @@ import uuid
 import os
 from fastapi import FastAPI, Form
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from src.modelling import initialize_model, correct_SMILES
