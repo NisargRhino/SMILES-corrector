@@ -24,7 +24,7 @@ RUN pip install --no-cache-dir \
     fastapi \
     uvicorn \
     chembl_structure_pipeline==1.2.2 \
-    matplotlib==3.10.1 \
+    matplotlib==3.9.4 \
     modin==0.32.0 \
     moses==0.10.0 \
     numpy==1.23.5 \
