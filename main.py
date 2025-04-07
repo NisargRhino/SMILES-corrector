@@ -16,7 +16,7 @@ app = FastAPI()
 # Allow CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://smileberta-portal.onrender.com"],  # Or specify exact origin(s): ["https://your-frontend.onrender.com"]
+    allow_origins=["*"],  # Or specify exact origin(s): ["https://smileberta-portal.onrender.com"]
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
