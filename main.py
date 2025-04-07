@@ -21,7 +21,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
+@app.options("/correct")
+async def preflight_handler(request: Request, rest_of_path: str):
+    return JSONResponse(status_code=204)
 
 
 # Model setup
