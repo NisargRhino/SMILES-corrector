@@ -12,6 +12,16 @@ from src.modelling import initialize_model, correct_SMILES
 # ----------- Setup -------------------
 app = FastAPI()
 
+# Allow CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["https://smileberta-portal.onrender.com"],  # Or specify exact origin(s): ["https://your-frontend.onrender.com"]
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
 # Model setup
 folder_out = "Data/"
 data_source = "PAPYRUS_200"
