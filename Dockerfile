@@ -31,7 +31,7 @@ RUN pip install --no-cache-dir \
     pandas==2.2.3 \
     rdkit==2023.3.2 \
     scikit_learn==1.6.1 \
-    scipy==1.15.2 \
+    scipy==1.13.1 \
     seaborn==0.13.2 \
     tueplots==0.2.0
 
