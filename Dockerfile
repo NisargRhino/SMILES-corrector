@@ -33,7 +33,7 @@ RUN pip install --no-cache-dir \
     scikit_learn==1.6.1 \
     scipy==1.13.1 \
     seaborn==0.13.2 \
-    tueplots==0.2.0
+    tueplots==0.0.17
 
 # Install torch and torchtext manually (required for torchtext.legacy)
 RUN pip install torch==1.9.0+cpu torchtext==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
